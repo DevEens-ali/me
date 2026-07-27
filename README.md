@@ -1,92 +1,163 @@
 <div align="center">
 
-<!-- ================= BANNER ================= -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:0F3D3E,100:00FF9C&height=250&section=header&text=Anees%20Ali&fontSize=70&fontColor=39FF14&fontAlignY=38&desc=Software%20Engineer%20%7C%20Backend%20%26%20ML%20Explorer&descAlignY=58&descAlign=50&animation=fadeIn" width="100%"/>
-
-<!-- ================= TYPING HEADER ================= -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=900&color=39FF14&center=true&vCenter=true&width=780&lines=Hi+there%2C+I'm+Anees+Ali+%F0%9F%91%8B;Software+Engineering+Student+%F0%9F%9A%80;Backend+Enthusiast+%F0%9F%90%8D+%7C+FastAPI+Explorer;Full-Stack+Learner+%F0%9F%92%BB;ML+Deployment+Tinkerer+%F0%9F%A4%96" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<img src="https://img.shields.io/badge/STATUS-ONLINE-39FF14?style=for-the-badge&labelColor=0D1117" />
-<img src="https://img.shields.io/badge/LOCATION-Pakistan-00BFFF?style=for-the-badge&labelColor=0D1117" />
-<img src="https://img.shields.io/badge/FOCUS-Backend%20%2B%20ML-39FF14?style=for-the-badge&labelColor=0D1117" />
+<!-- ================= MATRIX BANNER ================= -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0D1117,50:0F3D3E,100:00FF9C&height=260&section=header&text=%3C%20Anees%20Ali%20%2F%3E&fontSize=65&fontColor=39FF14&fontAlignY=35&desc=Booting%20Backend%20Systems%20Since%202022&descAlignY=58&descAlign=50&animation=twinkling" width="100%"/>
 
 </div>
 
 <br/>
 
-<!-- ================= ABOUT ME ================= -->
-## <img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30"> About Me
+<!-- ================= TERMINAL BOOT SEQUENCE ================= -->
+<div align="center">
 
-<table align="center">
+```bash
+$ ssh anees-ali@production-server
+Authenticating... ✔ access granted
+
+$ systemctl status anees-ali.service
+● anees-ali.service - Software Engineer | Backend Systems
+   Loaded: enabled (Python 3.11, FastAPI 0.115, PostgreSQL 16)
+   Active: active (running) since 2022 — uptime: growing daily 📈
+   Main PID: 1337 (learning.exe)
+```
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=800&color=00FF9C&center=true&vCenter=true&width=800&lines=%24+uvicorn+main%3Aapp+--reload;INFO%3A+Booting+Anees+Ali+v2.0...;INFO%3A+Loading+skills%3A+%5BPython%2C+FastAPI%2C+ML%5D;INFO%3A+Application+startup+complete+%E2%9C%94" alt="Typing SVG" />
+
+</div>
+
+<br/>
+
+<!-- ================= LIVE BADGES ================= -->
+<div align="center">
+<img src="https://img.shields.io/badge/BUILD-PASSING-39FF14?style=flat-square&labelColor=0D1117&logo=github" />
+<img src="https://img.shields.io/badge/UPTIME-99.9%25-00FF9C?style=flat-square&labelColor=0D1117&logo=statuspage" />
+<img src="https://img.shields.io/badge/LATENCY-%3C50ms-00BFFF?style=flat-square&labelColor=0D1117&logo=fastapi" />
+<img src="https://img.shields.io/badge/DEPLOY-Pakistan%20%F0%9F%87%B5%F0%9F%87%B0-39FF14?style=flat-square&labelColor=0D1117" />
+</div>
+
+<br/>
+
+---
+
+## 📡 `GET /about-me`
+
+<table>
 <tr>
-<td width="60%" valign="top">
+<td width="55%" valign="top">
 
-```yaml
-anees_ali:
-  role: "Software Engineering Student"
-  based_in: "Pakistan 🇵🇰"
-  currently_building:
-    - "⚡ REST APIs with FastAPI + PostgreSQL"
-    - "📊 Interactive dashboards with Streamlit"
-    - "🤖 Deploying Machine Learning models to production"
-  currently_learning:
-    - "🧠 ML Ops & Model Deployment pipelines"
-    - "🟦 TypeScript for type-safe frontends"
-    - "☕ Java fundamentals & OOP design patterns"
-  fun_fact: "My code works on the first try...
-             said no developer, ever. 😅"
-  status: "Compiling dreams into deployable code..."
+```json
+{
+  "developer": "Anees Ali",
+  "role": "Software Engineering Student",
+  "focus": "Backend Systems & ML Deployment",
+  "location": "Pakistan 🇵🇰",
+  "currently_building": [
+    "⚙️  REST APIs — FastAPI + PostgreSQL",
+    "📊  Data dashboards — Streamlit",
+    "🤖  Deploying ML models to production"
+  ],
+  "currently_learning": [
+    "🧠  MLOps & model-serving pipelines",
+    "🟦  TypeScript for typed frontends",
+    "☕  Java OOP & design patterns"
+  ],
+  "response_time": "instant ⚡",
+  "status_code": 200
+}
 ```
 
 </td>
-<td width="40%" align="center">
+<td width="45%" align="center" valign="middle">
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%"/>
+<img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="100%" style="border-radius:12px"/>
 
 </td>
 </tr>
 </table>
 
-- 🔭 I'm currently building **backend systems and APIs** with **FastAPI** & **PostgreSQL**
-- 🌱 I'm currently leveling up in **Machine Learning deployment** and **TypeScript**
-- 🧩 I love turning messy problems into clean, modular, well-documented code
-- ⚙️ Ask me about: **REST API design**, **database modeling**, or **Streamlit dashboards**
-- 💬 Open to collaborating on **backend**, **automation**, or **ML-powered** projects
-- ⚡ Fun fact: `git commit -m "fixed bug"` → introduces 3 new bugs
+<div align="center">
+<sub>💡 <b>console.log("git commit -m 'fixed bug'")</b> → introduces 3 new bugs. Every. Single. Time.</sub>
+</div>
 
 <br/>
 
-<!-- ================= TECH STACK ================= -->
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> Tech Arsenal
+---
+
+## 🧬 `GET /architecture` — How I'm wired
+
+```mermaid
+flowchart LR
+    A["🧑‍💻 Anees Ali"] --> B["🐍 Python Core"]
+    B --> C["⚡ FastAPI\nREST APIs"]
+    B --> D["🤖 ML Pipeline\nPandas + Scikit-Learn"]
+    C --> E[("🗄️ PostgreSQL")]
+    C --> F["📊 Streamlit\nDashboards"]
+    D --> G["📦 Model Deployment"]
+    C --> H["🟦 TypeScript\n(Frontend Layer)"]
+    G --> I["☁️ Production Ready"]
+    F --> I
+    H --> I
+
+    style A fill:#0D1117,stroke:#39FF14,stroke-width:2px,color:#39FF14
+    style B fill:#0D1117,stroke:#00BFFF,stroke-width:2px,color:#00BFFF
+    style C fill:#0D1117,stroke:#39FF14,stroke-width:2px,color:#39FF14
+    style D fill:#0D1117,stroke:#39FF14,stroke-width:2px,color:#39FF14
+    style E fill:#0D1117,stroke:#00BFFF,stroke-width:2px,color:#00BFFF
+    style F fill:#0D1117,stroke:#00BFFF,stroke-width:2px,color:#00BFFF
+    style G fill:#0D1117,stroke:#39FF14,stroke-width:2px,color:#39FF14
+    style H fill:#0D1117,stroke:#00BFFF,stroke-width:2px,color:#00BFFF
+    style I fill:#0D1117,stroke:#39FF14,stroke-width:3px,color:#39FF14
+```
+
+<br/>
+
+---
+
+## 🗺️ `GET /roadmap` — Current learning sprint
+
+```mermaid
+timeline
+    title Anees Ali — Backend Engineering Roadmap
+    section Foundations
+        Python & OOP : Data Structures : Git & GitHub
+    section Backend Core
+        FastAPI : REST API Design : PostgreSQL & SQL
+    section Now Building
+        Streamlit Dashboards : ML Model Integration : TypeScript
+    section Next Up
+        MLOps & Model Serving : Docker & CI/CD : Java Deep Dive
+```
+
+<br/>
+
+---
+
+## 🛠️ `GET /tech-stack`
 
 <div align="center">
 
-### 🐍 Backend & Languages
+**⚙️ Backend & Languages**
+
 <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=39FF14" />
 <img src="https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=00FF9C" />
 <img src="https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=00BFFF" />
 <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=39FF14" />
 <img src="https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=00BFFF" />
 
-### 🎨 Frontend
-<img src="https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&logo=html5&logoColor=39FF14" />
-<img src="https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&logo=css3&logoColor=00BFFF" />
-<img src="https://img.shields.io/badge/Streamlit-0D1117?style=for-the-badge&logo=streamlit&logoColor=39FF14" />
+**🤖 Data & Machine Learning**
 
-### 🤖 Data & Machine Learning
 <img src="https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=00FF9C" />
 <img src="https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=00BFFF" />
 <img src="https://img.shields.io/badge/Scikit--Learn-0D1117?style=for-the-badge&logo=scikitlearn&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/Streamlit-0D1117?style=for-the-badge&logo=streamlit&logoColor=39FF14" />
 
-### 🗄️ Databases & Tools
+**🗄️ Databases, Frontend & Tools**
+
 <img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=00BFFF" />
 <img src="https://img.shields.io/badge/SQLite-0D1117?style=for-the-badge&logo=sqlite&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&logo=html5&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&logo=css3&logoColor=00BFFF" />
 <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=00FF9C" />
-<img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=39FF14" />
 <img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=00BFFF" />
 <img src="https://img.shields.io/badge/VS%20Code-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=39FF14" />
 
@@ -94,44 +165,76 @@ anees_ali:
 
 <br/>
 
-<!-- ================= GITHUB STATS ================= -->
-## <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="30"> Live GitHub Metrics
+<!-- ================= SKILL RADAR ================= -->
+<div align="center">
+
+**📡 Skill Signal Strength**
+
+<img src="https://quickchart.io/chart?width=480&height=320&backgroundColor=%230D1117&c={type:'radar',data:{labels:['Python','FastAPI','SQL','JavaScript','TypeScript','ML/Pandas','Java'],datasets:[{label:'Proficiency',data:[85,75,70,65,55,60,45],backgroundColor:'rgba(57,255,20,0.25)',borderColor:'%2339FF14',pointBackgroundColor:'%2300BFFF'}]},options:{legend:{display:false},scale:{ticks:{display:false,beginAtZero:true,max:100},gridLines:{color:'%23233'},angleLines:{color:'%23233'},pointLabels:{fontColor:'%2339FF14'}}}}" width="65%"/>
+
+<sub>Self-assessed — updated as the stack grows 🌱</sub>
+
+</div>
+
+<br/>
+
+---
+
+## 📊 `GET /metrics` — Live system dashboard
 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=DevEens-ali&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=39FF14&icon_color=00BFFF&text_color=c9d1d9&ring_color=39FF14" width="49%"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevEens-ali&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=c9d1d9&langs_count=8" width="42%"/>
 
-<br/>
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=DevEens-ali&theme=tokyonight&hide_border=true&background=0D1117&ring=39FF14&fire=00BFFF&currStreakLabel=39FF14" width="70%"/>
 
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DevEens-ali&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=39FF14&line=00BFFF&point=39FF14" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DevEens-ali&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=39FF14&line=00BFFF&point=39FF14&area=true&area_color=39FF14" width="95%"/>
 
 </div>
 
 <details>
-<summary align="center">🏆 <b>Click to expand Trophy Case</b></summary>
+<summary align="center">🏆 <b>Expand Trophy Case</b></summary>
 <br/>
 <div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=DevEens-ali&theme=radical&no-frame=true&no-bg=true&row=1&margin-w=15&column=7" width="100%"/>
 </div>
 </details>
 
+<details>
+<summary align="center">🌌 <b>Expand 3D Contribution Skyline</b></summary>
+<br/>
+<div align="center">
+<img src="https://raw.githubusercontent.com/DevEens-ali/DevEens-ali/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+<sub>⚙️ Generated by the <code>profile3d.yml</code> Action — see setup notes below.</sub>
+</div>
+</details>
+
 <br/>
 
-<!-- ================= CONTRIBUTION SNAKE ================= -->
+<!-- ================= SNAKE ================= -->
 <div align="center">
-<img src="https://raw.githubusercontent.com/DevEens-ali/DevEens-ali/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-<sub>⚙️ Snake animation auto-generates once the <code>snake.yml</code> GitHub Action (see setup notes below) runs on this repo.</sub>
+<img src="https://raw.githubusercontent.com/DevEens-ali/DevEens-ali/output/github-contribution-grid-snake-neon.svg" width="100%"/>
+<sub>⚙️ Custom neon snake — generated by the <code>snake.yml</code> Action, see setup notes below.</sub>
 </div>
 
 <br/>
 
-<!-- ================= CONNECT ================= -->
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> Let's Connect
+---
+
+## 📶 `GET /status` — Repo activity heatmap
+
+<div align="center">
+<img src="https://repobeats.axiom.co/api/embed/REPLACE-WITH-YOUR-REPOBEATS-ID.svg" width="90%"/>
+<br/>
+<sub>Add this to your most active repo — auto-tracks PRs, issues & commits over time.</sub>
+</div>
+
+<br/>
+
+---
+
+## 🔌 `GET /connect`
 
 <div align="center">
 
@@ -150,18 +253,24 @@ anees_ali:
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=DevEens-ali&label=Profile%20Views&color=39FF14&style=for-the-badge&labelColor=0D1117" />
+<img src="https://komarev.com/ghpvc/?username=DevEens-ali&label=Server%20Requests%20(Profile%20Views)&color=39FF14&style=for-the-badge&labelColor=0D1117" />
 
 </div>
 
 <br/>
 
-<!-- ================= FOOTER ================= -->
+---
+
 <div align="center">
 
-⭐ **If you like what you see, feel free to fork or star my repositories!**
-**Let's build something awesome together.** 🚀
+```bash
+$ echo "Thanks for stopping by the server 🖥️"
+> Thanks for stopping by the server 🖥️
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF9C,50:0F3D3E,100:0D1117&height=120&section=footer" width="100%"/>
+$ git remote add collab https://github.com/DevEens-ali
+> ⭐ Star or fork a repo — let's ship something together.
+```
+
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00FF9C,50:0F3D3E,100:0D1117&height=140&section=footer" width="100%"/>
 
 </div>
